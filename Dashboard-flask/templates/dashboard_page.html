@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="topnav" id="myTopnav">
+  <a href="{{ url_for('logout') }}">Sign out</a>
+  <a href="{{ url_for('dashboard') }}" class="active">Home</a>
+  </a>
+</div>
+
+<div class="logotxt">
+<h1>ECenter</h1>
+</div>
+
+<div class="hd"> 
+<h1 style="text-align:center;">2021 CUSTOMER REPORT</h1>
+</div>
+<iframe width="1252" height="550" src="https://app.powerbi.com/reportEmbed?reportId=27dc7186-2ac9-4397-86e4-b03b0e813d7c&autoAuth=true&ctid=43790b1f-ab73-461d-8842-9477f06beff6&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWluZGlhLXdlc3QtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
+{% endblock %}
+
+<!-- <ul>
+   <li><a class="active" href="{{ url_for('dashboard') }}">Home</a></li>
+   <li><a href="{{ url_for('index') }}">Logout</a></li>
+</ul> -->

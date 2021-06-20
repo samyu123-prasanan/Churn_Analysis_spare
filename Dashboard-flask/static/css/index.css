@@ -1,0 +1,203 @@
+body,
+.signin {
+  background: linear-gradient(to right, #0f2027, #2c5364, #0f2027 );
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+
+.login {
+  position: relative;
+  top: 25px;
+  right: 0%;
+  height: 420px;
+  margin-top:-300px;
+  width: 400px;
+  margin: auto;
+  padding: 60px 60px;
+  background: url(https://i.pinimg.com/564x/e1/81/19/e1811952976d172cf9f6ddd5f2c9ba2c.jpg) no-repeat   center center #505050;   
+  opacity: 0.75;
+  background-size: cover;
+  box-shadow: 0px 30px 60px -5px #fffdf3;
+}
+
+form {
+  padding-top: 40px;
+}
+
+h2 {
+  padding-left: 12px;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  right: 5%;
+}
+
+span {
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 1; 
+  display: inline-block;
+  position: relative;
+  top: -65px;
+  transition: all 0.5s ease-in-out;
+}
+
+.text {
+  border: none;
+  font-style:normal;
+  width: 89%;
+  padding: 10px 20px;
+  display: block;
+  height: 15px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  margin-top: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+  outline: 0;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.text:focus + span {
+  opacity: 3;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background: rgba(0,0,0,0.6);;
+  width: 100%;
+  height: 8%;
+  
+}
+
+label {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.signin {
+  background: #fc2166;
+  color: #FFF;
+  width: 50%;
+  padding: 10px 20px;
+  display: block;
+  height: 39px;
+  border-radius: 20px;
+  margin-top: 30px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  right:-27% 
+}
+
+.signin:hover {
+  background: #4082f5;
+  box-shadow: 0px 4px 35px -5px #4082f5;
+  cursor: pointer;
+}
+
+.signin:focus {
+  outline:#eaeaea ;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  top: 85px;
+  position: relative;
+}
+
+u {
+    text-decoration: underline;
+  	text-decoration-color: #fc2166;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.active {
+  position:relative;
+  right: 0%;
+  font-size: px;
+}
+h1 {
+font-size: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  height: 100px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.hd {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  opacity: 0.75;
+}
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(to right, #323435,#323435,#f75488);
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.logotxt {
+  font-size: 18px;
+  color: #fc2166;
+  opacity: 0.75;
+  position:relative;
+  top:-62px;
+  right: -15px ;
+
+}
