@@ -1,10 +1,10 @@
 import pytest
-from project.models import User
+from ECenter_Dashboard import app
  
  
 @pytest.fixture(scope='module')
 def new_user():
-    user = User('patkennedy79@gmail.com', 'FlaskIsAwesome')
+    user = app('patkennedy79@gmail.com', 'FlaskIsAwesome')
     return user
 
 def test_new_user(new_user):
@@ -24,8 +24,8 @@ def init_database():
     db.create_all()
  
     # Insert user data
-    user1 = User(email='patkennedy79@gmail.com', plaintext_password='FlaskIsAwesome')
-    user2 = User(email='kennedyfamilyrecipes@gmail.com', plaintext_password='PaSsWoRd')
+    user1 = app(email='patkennedy79@gmail.com', plaintext_password='FlaskIsAwesome')
+    user2 = app(email='kennedyfamilyrecipes@gmail.com', plaintext_password='PaSsWoRd')
     db.session.add(user1)
     db.session.add(user2)
  
