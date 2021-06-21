@@ -13,7 +13,7 @@ def test_valid_login():
     #assert b"Login" not in response.data
     #assert b"Register" not in response.data
 """
-    
+"""   
 def test_valid_logout():
     response = app.test_client().get('/')
     assert response.status_code == 200
@@ -22,7 +22,7 @@ def test_valid_logout():
     #assert b"Logout" not in response.data
     #assert b"Login" in response.data
     #assert b"Register" in response.data
-
+"""
 """
 def test_valid_register():
     response = app.test_client().post('/register', data=dict(name='Maya_74561021', password='Zoya0021'))
