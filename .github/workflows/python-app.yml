@@ -17,8 +17,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Set up Python 3.7.1
       uses: actions/setup-python@v2
+      run: python test_dashboard.py
       with:
-        python-version: 3.9
+        python-version: 3.7.1
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -32,4 +33,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        test_dashboard.py
+        pytest
